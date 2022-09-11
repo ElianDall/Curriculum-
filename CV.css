@@ -54,6 +54,7 @@ h1{
     font-size: 40px;
     color:#FBBFBC;
     margin-top: 100px;
+    padding: 0px 100px
 }
 #pie{
     display: flex;
