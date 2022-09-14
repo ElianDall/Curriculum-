@@ -1,4 +1,4 @@
-Html{
+#index{
     background: #C7605A;
 }
 body{
@@ -79,6 +79,14 @@ h1{
     margin-bottom: 5%;
     text-align: center;
 }
-.bgexp{
-    background-color: #C7605A;
+/*---------------------------------------------------*/
+
+#experiencia{
+    background-color: #7BA6F7;
+}
+#navexp{
+    background-color:#7BA6F7;
+}
+.exp{
+    color:#173875;
 }

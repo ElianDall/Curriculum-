@@ -1,0 +1,12 @@
+html{
+    background-color: #7BA6F7;
+}
+body{
+    margin: 0px;
+    font-family:'Josefin Sans';
+    font-style: normal;
+}
+h1{
+    display:flex;
+    justify-content: center;
+}
