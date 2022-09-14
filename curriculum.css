@@ -112,6 +112,43 @@ a:hover{
     font-size: 40px;
     color:#85E1B0;
     margin-top: 100px;
-    margin: 4% 10%;
+    margin: 12% 12%;
+    margin-bottom: 2%;
+}
+
+/*----------------------------------------*/
+
+#objetivos{
+    background-color: #4E2985;
+}
+#navobj{
+    background-color: #CEB9ED ;
+}
+.obj{
+    color: #4E2985;
+}
+.titu2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#titulo3{
+    border-radius: 50px;
+    background-color: #CEB9ED ;
+    padding: 15px 40px 10px 40px;
+    color:#4E2985;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.parrafo2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#parrafoobj{
+    font-size: 40px;
+    color:#CEB9ED;
+    margin-top: 100px;
+    margin: 12% 12%;
     margin-bottom: 2%;
 }
