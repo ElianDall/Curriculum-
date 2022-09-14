@@ -35,7 +35,7 @@ a:hover{
     justify-content: center;
     margin-top: 50px;
 }
-h1{
+#titulo{
     border-radius: 50px;
     background-color: #FCE6EC;
     padding: 15px 40px 10px 40px;
@@ -82,11 +82,36 @@ h1{
 /*---------------------------------------------------*/
 
 #experiencia{
-    background-color: #7BA6F7;
+    background-color: #247D4E;
 }
 #navexp{
-    background-color:#7BA6F7;
+    background-color:#85E1B0;
 }
 .exp{
-    color:#173875;
+    color:#365C48;
+}
+.titu{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#titulo2{
+    border-radius: 50px;
+    background-color: #85E1B0;
+    padding: 15px 40px 10px 40px;
+    color:#365C48;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#parrafoexp{
+    font-size: 40px;
+    color:#85E1B0;
+    margin-top: 100px;
+    margin: 4% 10%;
+    margin-bottom: 2%;
 }
