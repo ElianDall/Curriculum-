@@ -76,7 +76,7 @@ a:hover{
     padding: 0px 100px;
     padding-top: 5px;
     margin: 5% 20%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     text-align: center;
 }
 /*---------------------------------------------------*/
@@ -148,6 +148,43 @@ a:hover{
 #parrafoobj{
     font-size: 40px;
     color:#CEB9ED;
+    margin-top: 100px;
+    margin: 12% 12%;
+    margin-bottom: 2%;
+}
+
+/*----------------------------------------*/
+
+#sobremi{
+    background-color: #078085;
+}
+#navsobremi{
+    background-color: #93D0D1;
+}
+.sobremi{
+    color: #078085;
+}
+.titu3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#titulo4{
+    border-radius: 50px;
+    background-color: #93D0D1 ;
+    padding: 15px 40px 10px 40px;
+    color:#078085;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#sobremilist{
+    font-size: 40px;
+    color:#93D0D1;
     margin-top: 100px;
     margin: 12% 12%;
     margin-bottom: 2%;
