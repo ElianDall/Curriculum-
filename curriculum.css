@@ -9,9 +9,10 @@ body{
 nav{
     display:flex;
     justify-content: space-evenly;
+    flex-direction: column;
     padding: 0.2rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-transform: capitalize;
     color: #7A3A37;
@@ -24,9 +25,10 @@ a{
 a:hover{
     color:gray;
 }
-@media (max-width: 900px) {
+@media (min-width: 900px) {
     nav {
-        flex-direction: column;
+        flex-direction: row;
+        font-size: 2rem;
     }
 }
 #bienvenidos{
@@ -226,11 +228,74 @@ a:hover{
     list-style: none;
 }
 
-@media (min-width:768px){
-    #sobremilist{
-        
-    }
+/*----------------------------------------*/
+
+#educacion {
+    background-color:#616039;
+}
+
+#nav-edu{
+    background-color:#E6E287 ;
+}
+
+#nav-edu a {
+    color: #616039;
+}
+
+#titulo5{
+    border-radius: 50px;
+    background-color: #E6E287;
+    padding: 15px 40px 10px 40px;
+    color:#616039;
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+#div-sub{
+    display:flex;
+    justify-content: center;
+}
+#sub-edu{
+    border-radius: 50px;
+    background-color: #E6E287;
+    padding: 15px 40px 10px 40px;
+    font-size: 50px;
+    font-size:xx-large;
+    color:#616039;
+    margin-top: 5rem;
+}
+
+#descripcion-edu p {
+    color: #E6E287;
+    text-align: center;
 }
 
 /*----------------------------------------*/
+
+#habilidades {
+    background-color:#B3590A;
+}
+
+#nav-habilidades {
+    background-color: #f0b37d;
+}
+
+#nav-habilidades a {
+    color: #B3590A;
+}
+
+#titulo-habilidades {
+    border-radius: 50px;
+    background-color: #f0b37d;
+    padding: 15px 40px 10px 40px;
+    color:#B3590A;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+#descripcion-habilidades p {
+    color: #f0b37d ;
+}
+
+/*-----------------------------------------------------*/
 
