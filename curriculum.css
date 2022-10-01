@@ -5,6 +5,7 @@ body{
     margin: 0px;
     font-family:'Josefin Sans';
     font-style: normal;
+    height: 100vh;
 }
 nav{
     display:flex;
@@ -41,7 +42,7 @@ a:hover{
     background-color: #FCE6EC;
     padding: 15px 40px 10px 40px;
     color:#7A3A37;
-    font-size: 50px;
+    font-size: 3rem;
     margin-bottom: 0px;
 
 }
@@ -139,7 +140,7 @@ a:hover{
     background-color: #85E1B0;
     padding: 15px 40px 10px 40px;
     color:#365C48;
-    font-size: 50px;
+    font-size: 3rem;
     margin-bottom: 0px;
 }
 .parrafo{
@@ -176,7 +177,7 @@ a:hover{
     background-color: #CEB9ED ;
     padding: 15px 40px 10px 40px;
     color:#4E2985;
-    font-size: 50px;
+    font-size: 3rem;
     margin-bottom: 0px;
 }
 .parrafo2{
@@ -213,12 +214,16 @@ a:hover{
     background-color: #93D0D1 ;
     padding: 15px 40px 10px 40px;
     color:#078085;
-    font-size: 50px;
+    font-size: 3rem;
     margin-bottom: 0px;
+}
+#lista{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
 }
 #sobremilist{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     text-align: center;
     padding: 0%;
@@ -243,11 +248,12 @@ a:hover{
 }
 
 #titulo5{
+    text-align: center;
     border-radius: 50px;
     background-color: #E6E287;
-    padding: 15px 40px 10px 40px;
+    padding: 15px 20px 10px 20px;
     color:#616039;
-    font-size: 50px;
+    font-size: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -270,32 +276,40 @@ a:hover{
     text-align: center;
 }
 
-/*----------------------------------------*/
-
-#habilidades {
-    background-color:#B3590A;
-}
-
-#nav-habilidades {
-    background-color: #f0b37d;
-}
-
-#nav-habilidades a {
-    color: #B3590A;
-}
-
-#titulo-habilidades {
-    border-radius: 50px;
-    background-color: #f0b37d;
-    padding: 15px 40px 10px 40px;
-    color:#B3590A;
-    font-size: 50px;
-    margin-bottom: 0px;
-}
-
-#descripcion-habilidades p {
-    color: #f0b37d ;
-}
-
 /*-----------------------------------------------------*/
 
+#proyectos{
+    background-color: #0F41B3;
+}
+
+#nav-proyectos {
+    background-color: #5782E6;
+}
+
+#nav-proyectos a {
+    color: #0F41B3;
+}
+
+#titulo-proyectos {
+    text-align: center;
+    border-radius: 50px;
+    background-color: #5782E6;
+    padding: 15px 20px 10px 20px;
+    color: #0F41B3;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#parrafopym{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#pymp{
+    font-size: 40px;
+    color:#CEB9ED;
+    margin-top: 1rem;
+    margin: 12% 12%;
+    margin-bottom: 2%;
+}
