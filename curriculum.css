@@ -7,18 +7,99 @@ body{
     font-style: normal;
     height: 100vh;
 }
-nav{
-    display:flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    padding: 0.2rem;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-transform: capitalize;
-    color: #7A3A37;
-    background: #FCE6EC;
+/* menu hamburguesa */
+nav ul {
+    list-style-type: none;
 }
+
+/* desaparece la checkbox */
+
+#nav {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.color-inicio-nav {
+    background-color: #FCE6EC;
+}
+
+.trigger {
+    display: none;   
+}
+
+.hamburger {
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 2rem;
+    position: relative;
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.trigger:checked ~ .hamburger span:first-child {
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+.trigger:checked ~ .hamburger span:last-child {
+    transform: rotate(-45deg);
+    top: -8px;
+}
+
+.trigger:checked ~ .hamburger span:nth-child(2) {
+    opacity: 0;
+}
+
+#opciones {
+    width: 100vw;
+    padding: 30px 70px;
+    margin-top: 14px;
+    position: absolute;
+    left: -100vw;
+    box-sizing: border-box;
+    transition: left 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.inicio {
+    background-color: #FCE6EC;
+}
+
+#opciones li {
+    margin-bottom: 10px;
+}
+
+.trigger:checked ~ #opciones {
+    left: 0;
+}
+
+@media (min-width:1280px){
+    .hamburger{
+        display: none;
+    }
+    
+    #opciones{
+        position:inherit;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 0px;
+    }
+
+    #opciones li a {
+        font-weight: bolder;
+    }
+}
+/*fin*/
 a{
     color:#7A3A37;
     text-decoration: none;
@@ -124,12 +205,20 @@ a:hover{
 #experiencia{
     background-color: #247D4E;
 }
-#navexp{
-    background-color:#85E1B0;
+
+.color-exp-nav {
+    background-color: #85E1B0;
 }
-.exp{
-    color:#365C48;
+
+.exp {
+    background-color: #85E1B0;
 }
+
+.exp a{
+    color: #247D4E;
+}
+
+
 .titu{
     display: flex;
     justify-content: center;
@@ -164,9 +253,15 @@ a:hover{
 #navobj{
     background-color: #CEB9ED ;
 }
-.obj{
+
+.color-objetivos-nav, .obj {
+    background-color: #CEB9ED ;
+}
+
+.obj a{
     color: #4E2985;
 }
+
 .titu2{
     display: flex;
     justify-content: center;
@@ -201,9 +296,15 @@ a:hover{
 #navsobremi{
     background-color: #93D0D1;
 }
-.sobremi{
+
+.color-sobremi-nav, .sm {
+    background-color: #93D0D1  ;
+}
+
+.sm a{
     color: #078085;
 }
+
 .titu3{
     display: flex;
     justify-content: center;
@@ -239,11 +340,11 @@ a:hover{
     background-color:#616039;
 }
 
-#nav-edu{
-    background-color:#E6E287 ;
+.color-educacion-nav, .educacion {
+    background-color:  #E6E287 ;
 }
 
-#nav-edu a {
+.educacion a{
     color: #616039;
 }
 
@@ -282,11 +383,11 @@ a:hover{
     background-color: #0F41B3;
 }
 
-#nav-proyectos {
-    background-color: #839fe0;
+.color-pym-nav, .pym {
+    background-color:  #839fe0 ;
 }
 
-#nav-proyectos a {
+.pym a{
     color: #0F41B3;
 }
 
